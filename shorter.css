@@ -4,11 +4,14 @@
     gap: 20px;
     padding: 10px;
     border-radius: 10px;
+    /* typo? */
     grid grid-template-areas: 
 
     ;
 
 }
+
+/* if you're using grid template area you have to define the rows and columns (refrence sprint documentation) */
 header{
   grid-area: header;
 }
